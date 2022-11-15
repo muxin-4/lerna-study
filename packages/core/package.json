@@ -22,7 +22,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/muxin-4/lerna-study.git",
-    "directory": "packages/core"
   },
   "scripts": {
     "test": "node ./__tests__/core.test.js"
@@ -34,5 +33,5 @@
     "lodash": "^4.17.21",
     "react": "^18.2.0"
   },
-  "gitHead": "0c1cde12cc76e4c373d147d72740220b5c5c7a37"
+  "gitHead": "4129592f2a6ffcc6a5678d3608115dfb4b78312a"
 }
