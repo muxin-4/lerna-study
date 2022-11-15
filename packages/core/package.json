@@ -30,5 +30,6 @@
     "@muxin-cli-dev/utils": "^1.0.1",
     "lodash": "^4.17.21",
     "react": "^18.2.0"
-  }
+  },
+  "gitHead": "4c28aefb68e65b5ef1f434e2190ef2c6a3747473"
 }
