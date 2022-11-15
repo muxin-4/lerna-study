@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -29,5 +29,5 @@
   "dependencies": {
     "lodash": "^4.17.21"
   },
-  "gitHead": "4129592f2a6ffcc6a5678d3608115dfb4b78312a"
+  "gitHead": "54c1422c89461a9dfd7b549deaca47b707170ba0"
 }
