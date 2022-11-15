@@ -14,11 +14,12 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://r.cnpmjs.org/"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muxin-4/lerna-study.git"
+    "url": "git+https://github.com/muxin-4/lerna-study.git",
+    "directory": "packages/utils"
   },
   "scripts": {
     "test": "node ./__tests__/utils.test.js"
@@ -29,5 +30,5 @@
   "dependencies": {
     "lodash": "^4.17.21"
   },
-  "gitHead": "dd9bc8cc1a018c0e214e70a8e874ad3cc9887d98"
+  "gitHead": "0c1cde12cc76e4c373d147d72740220b5c5c7a37"
 }
