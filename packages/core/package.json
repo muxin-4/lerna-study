@@ -1,6 +1,6 @@
 {
   "name": "@muxin-cli-dev/core",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "muxin <wgy952046097@gmail.com>",
   "homepage": "https://github.com/muxin-4/lerna-study#readme",
@@ -27,7 +27,6 @@
     "url": "https://github.com/muxin-4/lerna-study/issues"
   },
   "dependencies": {
-    "@muxin-cli-dev/utils": "^1.0.2",
     "lodash": "^4.17.21",
     "react": "^18.2.0"
   },
