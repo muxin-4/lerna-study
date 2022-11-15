@@ -1,0 +1,34 @@
+{
+  "name": "@muxin-cli-dev/core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "muxin <wgy952046097@gmail.com>",
+  "homepage": "https://github.com/muxin-4/lerna-study#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://r.cnpmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muxin-4/lerna-study.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/muxin-4/lerna-study/issues"
+  },
+  "dependencies": {
+    "@muxin-cli-dev/utils": "^1.0.0",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0"
+  }
+}
