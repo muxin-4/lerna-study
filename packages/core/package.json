@@ -6,6 +6,9 @@
   "homepage": "https://github.com/muxin-4/lerna-study#readme",
   "license": "ISC",
   "main": "lib/index.js",
+  "bin": {
+    "imooc-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -30,5 +33,5 @@
     "lodash": "^4.17.21",
     "react": "^18.2.0"
   },
-  "gitHead": "d31524e7052ac08a760591e66647524966747994"
+  "gitHead": "46d4ac53900c413cd388576471b160b30bc248df"
 }
