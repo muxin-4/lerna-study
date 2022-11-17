@@ -1,0 +1,108 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '6.0.3',
+0 silly argv   '$0': 'lerna'
+0 silly argv }
+1 notice cli v6.0.3
+2 verbose rootPath /Users/wangguanyu/wgy/03_study/07_lerna/lerna-study
+3 verbose session 02aa8c01e30d8c34
+4 verbose user-agent lerna/6.0.3/node@v14.17.6+x64 (darwin)
+5 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '6.0.3' }
+6 verbose rootPath /Users/wangguanyu/wgy/03_study/07_lerna/lerna-study
+7 info current version 1.0.0
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch master
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+15 silly hasTags
+16 verbose hasTags false
+17 info Assuming all packages changed
+18 verbose updated @yaayy/core
+19 verbose updated @yaayy/utils
+20 verbose git-describe undefined => "596b0a7"
+21 silly git-describe parsed => {"refCount":"43","sha":"596b0a7","isDirty":false}
+22 info execute Skipping releases
+23 silly lifecycle No script for "preversion" in "lerna-study", continuing
+24 silly lifecycle No script for "preversion" in "@yaayy/core", continuing
+25 silly lifecycle No script for "preversion" in "@yaayy/utils", continuing
+26 verbose version @yaayy/core has no lockfile. Skipping lockfile update.
+27 verbose version @yaayy/utils has no lockfile. Skipping lockfile update.
+28 silly lifecycle No script for "version" in "@yaayy/core", continuing
+29 silly lifecycle No script for "version" in "@yaayy/utils", continuing
+30 silly lifecycle No script for "version" in "lerna-study", continuing
+31 silly gitAdd [
+31 silly gitAdd   'packages/core/package.json',
+31 silly gitAdd   'packages/utils/package.json',
+31 silly gitAdd   'lerna.json'
+31 silly gitAdd ]
+32 silly gitCommit v1.0.1
+33 verbose git [ 'commit', '-m', 'v1.0.1' ]
+34 silly gitTag v1.0.1
+35 verbose git [ 'tag', 'v1.0.1', '-m', 'v1.0.1' ]
+36 silly lifecycle No script for "postversion" in "@yaayy/core", continuing
+37 silly lifecycle No script for "postversion" in "@yaayy/utils", continuing
+38 silly lifecycle No script for "postversion" in "lerna-study", continuing
+39 info git Pushing tags...
+40 silly gitPush origin master
+41 info publish Publishing packages to npm...
+42 warn ENOLICENSE Packages @yaayy/core and @yaayy/utils are missing a license.
+42 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+42 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+43 silly getCurrentSHA
+44 verbose getCurrentSHA 8d8afd6d66c5fd45bda89e856af5723319aa6f04
+45 silly lifecycle No script for "prepublish" in "lerna-study", continuing
+46 silly lifecycle No script for "prepare" in "lerna-study", continuing
+47 silly lifecycle No script for "prepublishOnly" in "lerna-study", continuing
+48 silly lifecycle No script for "prepack" in "lerna-study", continuing
+49 verbose pack-directory packages/core
+50 verbose pack-directory packages/utils
+51 silly lifecycle No script for "prepublish" in "@yaayy/core", continuing
+52 silly lifecycle No script for "prepublish" in "@yaayy/utils", continuing
+53 silly lifecycle No script for "prepare" in "@yaayy/core", continuing
+54 silly lifecycle No script for "prepare" in "@yaayy/utils", continuing
+55 silly lifecycle No script for "prepublishOnly" in "@yaayy/core", continuing
+56 silly lifecycle No script for "prepublishOnly" in "@yaayy/utils", continuing
+57 silly lifecycle No script for "prepack" in "@yaayy/core", continuing
+58 silly lifecycle No script for "prepack" in "@yaayy/utils", continuing
+59 silly lifecycle No script for "postpack" in "@yaayy/core", continuing
+60 verbose packed packages/core
+61 silly lifecycle No script for "postpack" in "@yaayy/utils", continuing
+62 verbose packed packages/utils
+63 silly lifecycle No script for "postpack" in "lerna-study", continuing
+64 verbose publish @yaayy/core
+65 verbose publish @yaayy/utils
+66 silly FetchError: request to https://registry.npmjs.org/@yaayy%2futils failed, reason: connect ETIMEDOUT 104.16.18.35:443
+66 silly     at ClientRequest.<anonymous> (/Users/wangguanyu/wgy/03_study/07_lerna/lerna-study/node_modules/_minipass-fetch@2.1.2@minipass-fetch/lib/index.js:130:14)
+66 silly     at ClientRequest.emit (events.js:400:28)
+66 silly     at TLSSocket.socketErrorListener (_http_client.js:475:9)
+66 silly     at TLSSocket.emit (events.js:412:35)
+66 silly     at emitErrorNT (internal/streams/destroy.js:106:8)
+66 silly     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+66 silly     at processTicksAndRejections (internal/process/task_queues.js:82:21)
+66 silly  FetchError: request to https://registry.npmjs.org/@yaayy%2futils failed, reason: connect ETIMEDOUT 104.16.18.35:443
+66 silly     at ClientRequest.<anonymous> (/Users/wangguanyu/wgy/03_study/07_lerna/lerna-study/node_modules/_minipass-fetch@2.1.2@minipass-fetch/lib/index.js:130:14)
+66 silly     at ClientRequest.emit (events.js:400:28)
+66 silly     at TLSSocket.socketErrorListener (_http_client.js:475:9)
+66 silly     at TLSSocket.emit (events.js:412:35)
+66 silly     at emitErrorNT (internal/streams/destroy.js:106:8)
+66 silly     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+66 silly     at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+66 silly   code: 'ETIMEDOUT',
+66 silly   errno: 'ETIMEDOUT',
+66 silly   syscall: 'connect',
+66 silly   address: '104.16.18.35',
+66 silly   port: 443,
+66 silly   type: 'system'
+66 silly }
+67 error ETIMEDOUT request to https://registry.npmjs.org/@yaayy%2futils failed, reason: connect ETIMEDOUT 104.16.18.35:443
+68 error FetchError: request to https://registry.npmjs.org/@yaayy%2futils failed, reason: connect ETIMEDOUT 104.16.18.35:443
+68 error     at ClientRequest.<anonymous> (/Users/wangguanyu/wgy/03_study/07_lerna/lerna-study/node_modules/_minipass-fetch@2.1.2@minipass-fetch/lib/index.js:130:14)
+68 error     at ClientRequest.emit (events.js:400:28)
+68 error     at TLSSocket.socketErrorListener (_http_client.js:475:9)
+68 error     at TLSSocket.emit (events.js:412:35)
+68 error     at emitErrorNT (internal/streams/destroy.js:106:8)
+68 error     at emitErrorCloseNT (internal/streams/destroy.js:74:3)
