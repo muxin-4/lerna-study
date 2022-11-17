@@ -13,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/muxin-4/lerna-study.git"
@@ -23,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/muxin-4/lerna-study/issues"
   },
-  "gitHead": "8d8afd6d66c5fd45bda89e856af5723319aa6f04"
+  "gitHead": "c03af237f0a11b41326e643ec27a274e5f77b28d"
 }
