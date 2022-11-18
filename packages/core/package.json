@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/muxin-4/lerna-study/issues"
   },
-  "gitHead": "c03af237f0a11b41326e643ec27a274e5f77b28d"
+  "gitHead": "c03af237f0a11b41326e643ec27a274e5f77b28d",
+  "dependencies": {
+    "@yaayy/utils": "^1.0.3",
+    "lodash": "^4.17.21"
+  }
 }
